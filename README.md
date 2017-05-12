@@ -16,3 +16,9 @@ fill in app name in manifest.yml
 cd scripts/
 ./deploy.sh
 
+
+TODO:
+testing framework
+Better user handling
+Local user authentication
+Password reset
