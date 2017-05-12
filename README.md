@@ -5,7 +5,7 @@ Defaults to no authentication required, no admin access
 
 run locally: npm run dev
 
-##Deploy to bluemix:
+#Deploy to bluemix:
 fill in user email, org, space in scripts/deploy.sh
 fill in app name in manifest.yml
 
