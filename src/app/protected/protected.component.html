@@ -1,0 +1,20 @@
+<div class="jumbotron">
+  <h1 class="display-3">Protected Page</h1>
+  <p class="lead">You can't be here unless your authenticated, or authentication is turned off</p>
+</div>
+
+<div class="container" *ngIf="loading">
+	<p>loading... </p>
+</div>
+
+<div class="container" *ngIf="error">
+	<p>{{error}}</p>
+</div>
+
+<div class="row">
+	<div class="col-xs-10 col-xs-offset-1">
+		<small><em>Welcome!</em></small>
+		<p>Server Call: {{serverCheck}}</p>
+	</div>
+</div>
+

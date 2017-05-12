@@ -1,0 +1,23 @@
+<div class="jumbotron">
+  <h1 class="display-3">Angular2/NodeApp Home Page!</h1>
+  <p class="lead">This page is visible to anyone, no matter if they are logged in or not</p>
+  <hr class="my-4">
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" [routerLink]="['/protected']" role="button">View Protected Page</a>
+  </p>
+</div>
+
+<div class="container" *ngIf="loading">
+	<p>loading... </p>
+</div>
+
+<div class="container" *ngIf="error">
+	<p>{{error}}</p>
+</div>
+
+<div class="row">
+	<div class="col-xs-10 col-xs-offset-1">
+		<small><em>Welcome!</em></small>
+		<p>Server Call: {{serverCheck}}</p>
+	</div>
+</div>
