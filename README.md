@@ -18,7 +18,7 @@ cd scripts/
 
 
 TODO:
-testing framework
-Better user handling
-Local user authentication
+testing framework,
+Better user handling,
+Local user authentication,
 Password reset
